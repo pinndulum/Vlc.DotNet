@@ -92,6 +92,9 @@
     <Compile Include="VlcControl.Events.cs">
       <SubType>component</SubType>
     </Compile>
+    <Compile Include="VlcControl.VlcVersion.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="VlcLibDirectoryNeededEventArgs.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
